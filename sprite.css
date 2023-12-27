@@ -1,0 +1,31 @@
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social__fb {
+    width: 40px; 
+    height: 36px;
+    background: url('css_sprites.png') -10px -10px;
+ }
+ 
+ .social__tg {
+    width: 40px; 
+    height: 36px;
+    background: url('css_sprites.png') -9px 46px;
+ }
+ 
+ .social__vk {
+     width: 40px; 
+     height: 36px;
+     background: url('css_sprites.png') 46px -66px;
+ }
+ 
+ .social__inst {
+     width: 40px; 
+     height: 36px;
+     background: url('css_sprites.png') -66px -10px;
+ }
