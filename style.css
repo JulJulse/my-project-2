@@ -111,6 +111,7 @@ ul, li {
    font-size: 13px;
    border-radius: 10px;
    padding: 10px;
+   opacity: 0;
 }
 
 .dropdown::after{
@@ -120,6 +121,15 @@ ul, li {
    position:absolute;
    bottom:100%;
    right:15px;
+   }
+
+   .contacts__text {
+      position: relative;
+   }
+   
+
+   .contacts__text:hover ~ .dropdown{
+   opacity:1;
    }
 
 .ul {
