@@ -105,7 +105,7 @@ ul, li {
 .dropdown {
    position: absolute;
    top: 93px;
-   right: 185px;
+   right: 182px;
    background: #EDEDED;
    color: #1E1F20;
    font-size: 13px;
@@ -123,10 +123,21 @@ ul, li {
    right:15px;
    }
 
-   .contacts__text {
+   .contacts__text{
       position: relative;
    }
    
+   .dropdown__billet {
+      position: relative;
+   }
+
+   .dropdown__worktime {
+      white-space: nowrap;
+   }
+
+   .dropdown__lunch {
+      white-space: nowrap;
+   }
 
    .contacts__text:hover ~ .dropdown{
    opacity:1;
