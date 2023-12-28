@@ -104,8 +104,8 @@ ul, li {
 
 .dropdown {
    position: absolute;
-   top: 93px;
-   right: 182px;
+   top: 43px;
+   right: 0px;
    background: #EDEDED;
    color: #1E1F20;
    font-size: 13px;
@@ -127,7 +127,7 @@ ul, li {
       position: relative;
    }
    
-   .dropdown__billet {
+   .dropdown-billet {
       position: relative;
    }
 
